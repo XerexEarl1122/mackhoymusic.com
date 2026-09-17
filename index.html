@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mackhoy Music</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b0b0f;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 50px 20px;
+            background: #111118;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #aaa;
+        }
+
+        .music {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .track {
+            background: #15151d;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+        }
+
+        .track h2 {
+            margin-bottom: 15px;
+        }
+
+        audio {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .download {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #ffffff;
+            color: #000;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .download:hover {
+            opacity: 0.8;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 25px;
+            background: #111118;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🎧 MACKHOY MUSIC</h1>
+        <p>DJ • Remixes • Original Music</p>
+    </header>
+
+    <section class="music">
+
+        <div class="track">
+            <h2>🎵 My First Track</h2>
+
+            <audio controls>
+                <source src="music/track1.mp3" type="audio/mpeg">
+            </audio>
+
+            <a class="download" href="music/track1.mp3" download>
+                ⬇ Free Download
+            </a>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Mackhoy Music. All Rights Reserved.</p>
+    </footer>
+
+</body>
+  </html>
